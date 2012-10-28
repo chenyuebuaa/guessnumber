@@ -31,17 +31,11 @@ public class QuizTest {
     public void Test()
     {
         
-          String input ="4321";
+          String input ="1267";
         String result = quiz.gussnumber(input);
-        Assert.assertEquals("0a4b", result);
+        Assert.assertEquals("2a0b", result);
     }
-    @Test
-    public void inputTest()
-    {
-    	String input = "4444";
-    	String result = quiz.checklegal(input);
-    	Assert.assertEquals("wrong",result);
-    }
+   
     
    /* @Test
     public void service Test()

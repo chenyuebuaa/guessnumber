@@ -1,0 +1,52 @@
+refactor 
+
+random 
+reply
+
+define rules //althm
+two counter
+
+I/O deal with inputs
+exception
+
+Althm:
+A CORRECT
+B no location
+
+B-A=B
+
+seperate the whole question
+
+then analysis the risk of each parts
+
+choose the hardest part as the first part
+
+
+作业1：JUNIT 如何支持数据驱动的测试，批量生成测试数据，和验证结果
+
+
+存储数据的结构
+操作：pop push
+数据类型
+规则
+
+从小变大的分析思路
+
+任务分解
+Given When Then——方法，界定任务 
+1、给一个空的，大小为20 的栈
+放入一个元素A
+栈里的大小为1，且元素为1
+
+2、给一个包含元素的栈
+推出一个元素
+栈的大小-1，输出推出的元素
+
+3、给一个非空的栈
+清空栈
+栈的大小为0
+
+4、给一个非空的栈
+请求当前栈顶元素
+得到并输出栈顶元素
+
