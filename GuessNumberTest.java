@@ -30,10 +30,17 @@ public class GuessNumberTest {
          assertEquals("2a0b", result);
     }
     @Test
-    public void should_return_2a0b_given_two_numbers_are_wrong(){
+    public void should_return_2a0b_given_correctA(){
     	 GuessNumber guessNumber = new GuessNumber("1234");
-    	 guessNumber.parseString("1267");
+    	
          String result = guessNumber.validate("1267");
-         //assertEquals("2a0b", result);
+         assertEquals("2a0b", result);
+    }
+    @Test
+    public void should_return_2a1b()
+    {    GuessNumber guessNumber = new GuessNumber("1234");
+    	 guessNumber.parseString("1263");
+         String result = guessNumber.validate("1263");
+         assertEquals("2a1b", result);
     }
 }
